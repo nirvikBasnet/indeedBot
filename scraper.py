@@ -18,11 +18,11 @@ search.send_keys(Keys.RETURN)
 
 
 try:
-    element = WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.CLASS_NAME, "title"))
+    resultsCol = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "resultsCol"))
     )
-    element.click()
-  
+
+    
     
 
 except:
