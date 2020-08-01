@@ -1,5 +1,5 @@
-<h1>Install Selenium<h1>
+Install Selenium
 <p>pip3 install selenium<p>
   
- <h1> Download chromedriver <h1>
+##Download chromedriver
   <a href="https://chromedriver.chromium.org">ChromeDriver<a>
